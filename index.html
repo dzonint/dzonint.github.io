@@ -111,15 +111,15 @@
             </a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#dotabuff-database-project" data-toggle="modal">
+            <a class="portfolio-link" href="#notes-nt" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/dotabuff_database_normalized.png" style="padding-left:20%; max-height:180px;" alt="Book Donation database">
+              <img class="img-fluid" src="img/portfolio/notesnt.png" alt="NotesNT">
             </a>
-          </div>
+          </div> 
           <div class="col-sm-4 portfolio-item">
             <a class="portfolio-link" href="#mm-content" data-toggle="modal">
               <div class="caption">
@@ -130,8 +130,28 @@
               <img class="img-fluid" src="img/portfolio/ps_ae.png" alt="Adobe Photoshop & After Effects">
             </a>
           </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#book-donation-database" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/donatori.png" style="padding-left:20%; max-height:180px;" alt="Book Donation database">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#dotabuff-database-project" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/dotabuff_database_normalized.png" style="padding-left:20%; max-height:180px;" alt="Dotabuff database">
+            </a>
+          </div>    
         </div>
-      </div>
+      </div>   
     </section>
 
     <!-- About Section -->
@@ -489,7 +509,99 @@
         </div>
       </div>
     </div>
-
+    <div class="portfolio-modal modal fade" id="book-donation-database" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Book Donation Database</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/donatori.png" alt="Book Donation Database">
+                  <p>A commission for a civic association.</p>
+                  <p>Fairly simple database. On top of the main form, there is a combo box which lists all donors, and upon selecting one of them their information is shown, along with the list of their donations in the grid view below.</p>
+                  <p>To prevent potential accidents, all of the data shown on main form is locked, neither gridview nor user info can be edited from it.</p>
+                  <p>User has an option of adding a donation or donor, which opens up a new form. Before new donation is entered in database, user must select from one of the existing donors to who the donation will be assigned to.</p>
+                  <p>There are 3 reports in database. First one compiles a list of donors, listing their name, address, contact and e-mail. Second one lists all of the currently selected donor's donations. It contains the date of donation, amount and description, along with the number of times donor has donated and the total amount of books he donated. The third and last report makes a list out of all donations, and groups them by the month and year of donation. It contains description, donor name, date of donation and the amount.</p>
+                  <p>The query is for data which needs to be pulled after user selects a donor from combo box.</p>
+                  <ul class="list-inline item-details">
+                    <li>Client:
+                      <strong>
+                        <a href="https://sr.wikipedia.org/sr-el/%D0%90%D0%B4%D0%BB%D0%B8%D0%B3%D0%B0%D1%82">Adligat</a>
+                      </strong>
+                    </li>
+                    <li>Date:
+                      <strong>
+                        <a href="#">February 2017</a>
+                      </strong>
+                    </li>
+                    <li>Service:
+                      <strong>
+                        <a href="#">Database Development</a>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="notes-nt" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>NotesNT</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/portfolio/notesnt.png" alt="NotesNT">
+                    <p>NotesNT is a simple online note storage created for REST project assignment - it works by sending AJAX requests from pages while behaving according to the incoming responses.</p>
+                    <p>The assignment was given to me by one of the Belgrade's IT companies and it asked of me to implement HTML/JS frontend and REST backend using any programming language or framework.</p>
+                  <ul class="list-inline item-details">
+                    <li>Datum:
+                      <strong>
+                        <a href="#">March 2018</a>
+                      </strong>
+                    </li>
+                    <li>Usluga:
+                      <strong>
+                        <a href="#">Web Development</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="https://github.com/dzonint/NotesNT">Project page</a>
+                      </strong>
+                    </li>  
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+      
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
