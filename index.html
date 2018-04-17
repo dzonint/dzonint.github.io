@@ -149,7 +149,17 @@
               </div>
               <img class="img-fluid" src="img/portfolio/dotabuff_database_normalized.png" style="padding-left:20%; max-height:180px;" alt="Dotabuff database">
             </a>
-          </div>    
+          </div>
+            <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#nova-tehnika-supply" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/NovaTehnika/porudzbine.png" style="padding-left:5%; max-height:180px;" alt="Nova Tehnika supply chain project">
+            </a>
+          </div>
         </div>
       </div>   
     </section>
@@ -161,7 +171,9 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p>I'm a student attending one of Belgrade's IT oriented colleges with a GPA of 9.8/10 who loves coding. I'm looking for a group of people who will enable me to thrive and expand my skills and knowledge, with the focus on web development.</p>  
+            <p>I'm a student attending one of Belgrade's IT oriented colleges with a GPA of 9.8/10 who loves coding. I'm looking for a group of people who will enable me to thrive and expand my skills and knowledge, with the focus on web development.</p>
+              
+            <p>I mostly use pure PHP + mySQL + jQuery with AJAX calls and Bootstrap for my web based projects (with the exception of typical websites where I might use some CMS like Wordpress), while I implement my desktop applications using MSSQL for projecting databases (including things like procedures, triggers, functions, denormalization etc.) which I connect to using C# applications which use ADO.NET library (or more precisely - System.Data.SqlClient namespace). For multimedia content, I use Adobe Photoshop and Premier Pro or After Effects for video material.</p>  
             <a href="documents/Nikola%20V.%20-%20CV.pdf" class="btn btn-lg btn-outline">
               <i class="fa fa-download"></i>
               Download my CV
@@ -219,7 +231,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              Copyright &copy; Dzonint 2017
+              Copyright &copy; Dzonint 2018
             </div>
           </div>
         </div>
@@ -602,7 +614,57 @@
           </div>
         </div>
       </div>
-    </div>   
+    </div>
+    <div class="portfolio-modal modal fade" id="nova-tehnika-supply" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Nova Tehnika - ADO.NET</h2>
+                  <hr class="star-primary">
+                    <a href="img/portfolio/NovaTehnika/conceptual_model.png" target="_blank"><img class="img-fluid img-centered" src="img/portfolio/NovaTehnika/conceptual_model.png" style="max-width:33%;" alt="Nova Tehnika Project"></a>
+                    <a href="img/portfolio/NovaTehnika/porudzbine.png" target="_blank"><img class="img-fluid img-centered" src="img/portfolio/NovaTehnika/porudzbine.png" style="max-width:33%;" alt="Nova Tehnika Project"></a>
+                    <a href="img/portfolio/NovaTehnika/dostavljaci.png" target="_blank"><img class="img-fluid img-centered" src="img/portfolio/NovaTehnika/dostavljaci.png" style="max-width:33%;" alt="Nova Tehnika Project"></a>
+                    <p>Nova Tehnika is a ADO.NET based CRUD application which was done as an college assignment. It consisted of creating a conceptual database model, translating it to relational database model, denormalization of it and implementation of CRUD via connected and disconnected architecture using System.Data.SqlClient namespace.</p>
+                  <ul class="list-inline item-details">
+                    <li>Date:
+                      <strong>
+                        <a href="#">April 2018</a>
+                      </strong>
+                    </li>
+                    <li>Service:
+                      <strong>
+                        <a href="#">Database Development</a> , <a href="#">Software Development</a>
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>
+                        <a href="documents/Nova%20Tehnika%20-%20Lanac%20snabdevanja.pdf">Project documentation (RS)</a>
+                      </strong>
+                    </li>    
+                    <li>
+                      <strong>
+                        <a href="https://github.com/dzonint/Nova-Tehnika">Project page</a>
+                      </strong>
+                    </li>  
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
